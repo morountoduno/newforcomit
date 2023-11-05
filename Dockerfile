@@ -1,5 +1,5 @@
 # Use an official Nginx runtime as a parent image
-FROM nginx:latest
+FROM nginx:stable
 
 # Copy the HTML, CSS, and JavaScript files into the container
 COPY index.html /usr/share/nginx/html/
