@@ -6,7 +6,9 @@ COPY index.html /usr/share/nginx/html/
 COPY script.js /usr/share/nginx/html/
 COPY stylesheet.css /usr/share/nginx/html/
 #COPY images /usr/share/nginx/html/html
-COPY images /usr/share/nginx/html/
+COPY cover.png /usr/share/nginx/html/
+COPY checked.png /usr/share/nginx/html/
+COPY unchecked.png /usr/share/nginx/html/
 
 
 # Expose port 80 for the Nginx server
